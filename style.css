@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(65, 127, 3) ;
+}
+#timer{
+font-size:40px;
+margin-left: 1000;
+font-weight: 500;
+color: black;
+
+}
+#score{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+#yoursketch{
+    font-size: 30px;
+    font-weight: 500;
+}
+#confidence{
+    font-size: 30px;
+    font-weight: 500;
+}
+#SketchToBeDrawn{
+    font-size: 30px;
+    color: rgb(219, 9, 9);
+    font-weight: 500;
+}
+#output
+{
+	 width: 2000px;background: rgba(255,255,255,0.8);
+}
+#h1{
+   margin-right:100px; 
+}
+
+#show_sketch{
+    margin-left: 400px;
+}
+p{
+    font-size:30px;
+    font-weight: 100px; 
+    padding-top: 10px;
+    color: black;
+ }
+ canvas{
+     margin-top: 150px;
+     border: 5px solid rgb(14, 14, 14);
+     border-radius: 25px;
+     animation-name:example;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+ @keyframes example{
+     from{box-shadow:5px 10px 10000px rgb(255, 2, 2) ;}
+     to{box-shadow:5px 10px 100000px rgb(255, 139, 139) ;}
+ }
+ #restart{
+    margin-top:-60;
+ }
